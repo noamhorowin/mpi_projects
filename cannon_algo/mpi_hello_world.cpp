@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <iostream>
 #include <unistd.h>
-//#include <home/Eigen/Dense>
+#include <inc/Eigen>
 using namespace std;
 
 int main(int argc, char **argv) {
