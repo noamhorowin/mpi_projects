@@ -44,21 +44,21 @@ RM = /snap/clion/99/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/noam/CLionProjects/Cannon_algo
+CMAKE_SOURCE_DIR = /home/noam/CLionProjects/mpi_projects/cannon_algo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/noam/CLionProjects/Cannon_algo/cmake-build-debug
+CMAKE_BINARY_DIR = /home/noam/CLionProjects/mpi_projects/cannon_algo/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Cannon_algo.dir/all
+all: CMakeFiles/cannon_algo.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Cannon_algo.dir/clean
+clean: CMakeFiles/cannon_algo.dir/clean
 
 .PHONY : clean
 
@@ -68,31 +68,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/Cannon_algo.dir
+# Target rules for target CMakeFiles/cannon_algo.dir
 
 # All Build rule for target.
-CMakeFiles/Cannon_algo.dir/all:
-	$(MAKE) -f CMakeFiles/Cannon_algo.dir/build.make CMakeFiles/Cannon_algo.dir/depend
-	$(MAKE) -f CMakeFiles/Cannon_algo.dir/build.make CMakeFiles/Cannon_algo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noam/CLionProjects/Cannon_algo/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target Cannon_algo"
-.PHONY : CMakeFiles/Cannon_algo.dir/all
+CMakeFiles/cannon_algo.dir/all:
+	$(MAKE) -f CMakeFiles/cannon_algo.dir/build.make CMakeFiles/cannon_algo.dir/depend
+	$(MAKE) -f CMakeFiles/cannon_algo.dir/build.make CMakeFiles/cannon_algo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/noam/CLionProjects/mpi_projects/cannon_algo/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target cannon_algo"
+.PHONY : CMakeFiles/cannon_algo.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Cannon_algo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/noam/CLionProjects/Cannon_algo/cmake-build-debug/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Cannon_algo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/noam/CLionProjects/Cannon_algo/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Cannon_algo.dir/rule
+CMakeFiles/cannon_algo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noam/CLionProjects/mpi_projects/cannon_algo/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cannon_algo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noam/CLionProjects/mpi_projects/cannon_algo/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/cannon_algo.dir/rule
 
 # Convenience name for target.
-Cannon_algo: CMakeFiles/Cannon_algo.dir/rule
+cannon_algo: CMakeFiles/cannon_algo.dir/rule
 
-.PHONY : Cannon_algo
+.PHONY : cannon_algo
 
 # clean rule for target.
-CMakeFiles/Cannon_algo.dir/clean:
-	$(MAKE) -f CMakeFiles/Cannon_algo.dir/build.make CMakeFiles/Cannon_algo.dir/clean
-.PHONY : CMakeFiles/Cannon_algo.dir/clean
+CMakeFiles/cannon_algo.dir/clean:
+	$(MAKE) -f CMakeFiles/cannon_algo.dir/build.make CMakeFiles/cannon_algo.dir/clean
+.PHONY : CMakeFiles/cannon_algo.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,4 +1,0 @@
-/snap/clion/99/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE= -D CMAKE_CXX_COMPILER=/home/noam/openmpi-4.0.2/mpi_install_dir/bin/mpiCC -G "CodeBlocks - Unix Makefiles" /home/noam/CLionProjects/Cannon_algo
--- Configuring done
--- Generating done
--- Build files have been written to: /home/noam/CLionProjects/Cannon_algo/cmake-build-default

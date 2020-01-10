@@ -1,0 +1,1 @@
+/home/noam/openmpi-4.0.2/mpi_install_dir/bin/mpiCC  -g   CMakeFiles/cannon_algo.dir/mpi_hello_world.cpp.o  -o cannon_algo 

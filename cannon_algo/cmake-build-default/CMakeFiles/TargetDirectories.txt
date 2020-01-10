@@ -1,3 +1,0 @@
-/home/noam/CLionProjects/Cannon_algo/cmake-build-default/CMakeFiles/rebuild_cache.dir
-/home/noam/CLionProjects/Cannon_algo/cmake-build-default/CMakeFiles/Cannon_algo.dir
-/home/noam/CLionProjects/Cannon_algo/cmake-build-default/CMakeFiles/edit_cache.dir

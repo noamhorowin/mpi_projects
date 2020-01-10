@@ -1,4 +1,4 @@
-# Install script for directory: /home/noam/CLionProjects/Cannon_algo
+# Install script for directory: /home/noam/CLionProjects/mpi_projects/cannon_algo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/noam/CLionProjects/Cannon_algo/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/noam/CLionProjects/mpi_projects/cannon_algo/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

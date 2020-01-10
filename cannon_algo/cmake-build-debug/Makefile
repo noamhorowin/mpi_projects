@@ -48,10 +48,10 @@ RM = /snap/clion/99/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/noam/CLionProjects/Cannon_algo
+CMAKE_SOURCE_DIR = /home/noam/CLionProjects/mpi_projects/cannon_algo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/noam/CLionProjects/Cannon_algo/cmake-build-debug
+CMAKE_BINARY_DIR = /home/noam/CLionProjects/mpi_projects/cannon_algo/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/noam/CLionProjects/Cannon_algo/cmake-build-debug/CMakeFiles /home/noam/CLionProjects/Cannon_algo/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noam/CLionProjects/mpi_projects/cannon_algo/cmake-build-debug/CMakeFiles /home/noam/CLionProjects/mpi_projects/cannon_algo/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/noam/CLionProjects/Cannon_algo/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noam/CLionProjects/mpi_projects/cannon_algo/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,98 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Cannon_algo
+# Target rules for targets named cannon_algo
 
 # Build rule for target.
-Cannon_algo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Cannon_algo
-.PHONY : Cannon_algo
+cannon_algo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cannon_algo
+.PHONY : cannon_algo
 
 # fast build rule for target.
-Cannon_algo/fast:
-	$(MAKE) -f CMakeFiles/Cannon_algo.dir/build.make CMakeFiles/Cannon_algo.dir/build
-.PHONY : Cannon_algo/fast
-
-MMA.o: MMA.cpp.o
-
-.PHONY : MMA.o
-
-# target to build an object file
-MMA.cpp.o:
-	$(MAKE) -f CMakeFiles/Cannon_algo.dir/build.make CMakeFiles/Cannon_algo.dir/MMA.cpp.o
-.PHONY : MMA.cpp.o
-
-MMA.i: MMA.cpp.i
-
-.PHONY : MMA.i
-
-# target to preprocess a source file
-MMA.cpp.i:
-	$(MAKE) -f CMakeFiles/Cannon_algo.dir/build.make CMakeFiles/Cannon_algo.dir/MMA.cpp.i
-.PHONY : MMA.cpp.i
-
-MMA.s: MMA.cpp.s
-
-.PHONY : MMA.s
-
-# target to generate assembly for a file
-MMA.cpp.s:
-	$(MAKE) -f CMakeFiles/Cannon_algo.dir/build.make CMakeFiles/Cannon_algo.dir/MMA.cpp.s
-.PHONY : MMA.cpp.s
-
-Matrix.o: Matrix.cpp.o
-
-.PHONY : Matrix.o
-
-# target to build an object file
-Matrix.cpp.o:
-	$(MAKE) -f CMakeFiles/Cannon_algo.dir/build.make CMakeFiles/Cannon_algo.dir/Matrix.cpp.o
-.PHONY : Matrix.cpp.o
-
-Matrix.i: Matrix.cpp.i
-
-.PHONY : Matrix.i
-
-# target to preprocess a source file
-Matrix.cpp.i:
-	$(MAKE) -f CMakeFiles/Cannon_algo.dir/build.make CMakeFiles/Cannon_algo.dir/Matrix.cpp.i
-.PHONY : Matrix.cpp.i
-
-Matrix.s: Matrix.cpp.s
-
-.PHONY : Matrix.s
-
-# target to generate assembly for a file
-Matrix.cpp.s:
-	$(MAKE) -f CMakeFiles/Cannon_algo.dir/build.make CMakeFiles/Cannon_algo.dir/Matrix.cpp.s
-.PHONY : Matrix.cpp.s
-
-cannon_Algo.o: cannon_Algo.cpp.o
-
-.PHONY : cannon_Algo.o
-
-# target to build an object file
-cannon_Algo.cpp.o:
-	$(MAKE) -f CMakeFiles/Cannon_algo.dir/build.make CMakeFiles/Cannon_algo.dir/cannon_Algo.cpp.o
-.PHONY : cannon_Algo.cpp.o
-
-cannon_Algo.i: cannon_Algo.cpp.i
-
-.PHONY : cannon_Algo.i
-
-# target to preprocess a source file
-cannon_Algo.cpp.i:
-	$(MAKE) -f CMakeFiles/Cannon_algo.dir/build.make CMakeFiles/Cannon_algo.dir/cannon_Algo.cpp.i
-.PHONY : cannon_Algo.cpp.i
-
-cannon_Algo.s: cannon_Algo.cpp.s
-
-.PHONY : cannon_Algo.s
-
-# target to generate assembly for a file
-cannon_Algo.cpp.s:
-	$(MAKE) -f CMakeFiles/Cannon_algo.dir/build.make CMakeFiles/Cannon_algo.dir/cannon_Algo.cpp.s
-.PHONY : cannon_Algo.cpp.s
+cannon_algo/fast:
+	$(MAKE) -f CMakeFiles/cannon_algo.dir/build.make CMakeFiles/cannon_algo.dir/build
+.PHONY : cannon_algo/fast
 
 mpi_hello_world.o: mpi_hello_world.cpp.o
 
@@ -210,7 +129,7 @@ mpi_hello_world.o: mpi_hello_world.cpp.o
 
 # target to build an object file
 mpi_hello_world.cpp.o:
-	$(MAKE) -f CMakeFiles/Cannon_algo.dir/build.make CMakeFiles/Cannon_algo.dir/mpi_hello_world.cpp.o
+	$(MAKE) -f CMakeFiles/cannon_algo.dir/build.make CMakeFiles/cannon_algo.dir/mpi_hello_world.cpp.o
 .PHONY : mpi_hello_world.cpp.o
 
 mpi_hello_world.i: mpi_hello_world.cpp.i
@@ -219,7 +138,7 @@ mpi_hello_world.i: mpi_hello_world.cpp.i
 
 # target to preprocess a source file
 mpi_hello_world.cpp.i:
-	$(MAKE) -f CMakeFiles/Cannon_algo.dir/build.make CMakeFiles/Cannon_algo.dir/mpi_hello_world.cpp.i
+	$(MAKE) -f CMakeFiles/cannon_algo.dir/build.make CMakeFiles/cannon_algo.dir/mpi_hello_world.cpp.i
 .PHONY : mpi_hello_world.cpp.i
 
 mpi_hello_world.s: mpi_hello_world.cpp.s
@@ -228,7 +147,7 @@ mpi_hello_world.s: mpi_hello_world.cpp.s
 
 # target to generate assembly for a file
 mpi_hello_world.cpp.s:
-	$(MAKE) -f CMakeFiles/Cannon_algo.dir/build.make CMakeFiles/Cannon_algo.dir/mpi_hello_world.cpp.s
+	$(MAKE) -f CMakeFiles/cannon_algo.dir/build.make CMakeFiles/cannon_algo.dir/mpi_hello_world.cpp.s
 .PHONY : mpi_hello_world.cpp.s
 
 # Help Target
@@ -238,17 +157,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Cannon_algo"
+	@echo "... cannon_algo"
 	@echo "... edit_cache"
-	@echo "... MMA.o"
-	@echo "... MMA.i"
-	@echo "... MMA.s"
-	@echo "... Matrix.o"
-	@echo "... Matrix.i"
-	@echo "... Matrix.s"
-	@echo "... cannon_Algo.o"
-	@echo "... cannon_Algo.i"
-	@echo "... cannon_Algo.s"
 	@echo "... mpi_hello_world.o"
 	@echo "... mpi_hello_world.i"
 	@echo "... mpi_hello_world.s"

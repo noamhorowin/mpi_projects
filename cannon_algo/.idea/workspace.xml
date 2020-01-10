@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Cannon_algo" targetName="Cannon_algo" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-D CMAKE_CXX_COMPILER=/home/noam/openmpi-4.0.2/mpi_install_dir/bin/mpiCC" />
+      <configuration PROFILE_NAME="Default" GENERATION_OPTIONS="-D CMAKE_CXX_COMPILER=/home/noam/openmpi-4.0.2/mpi_install_dir/bin/mpiCC" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9811b4b1-7a37-4921-8b3a-b993235f9d92" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Default" />
+  <component name="ProjectId" id="1VwDI8N2FeMpuiifBBA7hR4ihJe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="CompDBSettings" />
+    <property name="settings.editor.splitter.proportion" value="0.2487757" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Cannon_algo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cannon_algo" TARGET_NAME="Cannon_algo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cannon_algo" RUN_TARGET_NAME="Cannon_algo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9811b4b1-7a37-4921-8b3a-b993235f9d92" name="Default Changelist" comment="" />
+      <created>1578306136884</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578306136884</updated>
+      <workItem from="1578306140539" duration="13654000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578435967908">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578435967908" />
+    <state x="738" y="296" width="501" height="513" key="FileChooserDialogImpl" timestamp="1578665684849">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="738" y="296" width="501" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1578665684849" />
+    <state width="881" height="335" key="GridCell.Tab.0.bottom" timestamp="1578580880220">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="881" height="335" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578580880220" />
+    <state width="881" height="335" key="GridCell.Tab.0.center" timestamp="1578580880217">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="881" height="335" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578580880217" />
+    <state width="881" height="335" key="GridCell.Tab.0.left" timestamp="1578580880215">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="881" height="335" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578580880215" />
+    <state width="881" height="335" key="GridCell.Tab.0.right" timestamp="1578580880219">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="881" height="335" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578580880219" />
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1578517310829">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578517310829" />
+    <state width="1807" height="344" key="GridCell.Tab.1.center" timestamp="1578517310828">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578517310828" />
+    <state width="1807" height="344" key="GridCell.Tab.1.left" timestamp="1578517310828">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578517310828" />
+    <state width="1807" height="344" key="GridCell.Tab.1.right" timestamp="1578517310829">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578517310829" />
+    <state width="1807" height="344" key="GridCell.Tab.2.bottom" timestamp="1578517310830">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.2.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578517310830" />
+    <state width="1807" height="344" key="GridCell.Tab.2.center" timestamp="1578517310829">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.2.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578517310829" />
+    <state width="1807" height="344" key="GridCell.Tab.2.left" timestamp="1578517310829">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.2.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578517310829" />
+    <state width="1807" height="344" key="GridCell.Tab.2.right" timestamp="1578517310830">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.2.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578517310830" />
+    <state x="302" y="155" key="SettingsEditor" timestamp="1578471991980">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="302" y="155" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1578471991980" />
+    <state x="640" y="149" width="707" height="807" key="find.popup" timestamp="1578436548542">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="640" y="149" width="707" height="807" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1578436548542" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/mpi_hello_world.cpp</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
