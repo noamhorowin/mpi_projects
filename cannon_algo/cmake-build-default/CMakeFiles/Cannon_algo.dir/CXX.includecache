@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/noam/CLionProjects/Cannon_algo/mpi_hello_world.cpp
+mpi.h
+-
+stdio.h
+-
+iostream
+-
+unistd.h
+-
+mpi_hello_world.h
+/home/noam/CLionProjects/Cannon_algo/mpi_hello_world.h
+
+/home/noam/CLionProjects/Cannon_algo/mpi_hello_world.h
+
